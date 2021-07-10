@@ -1,0 +1,8 @@
+# Ignore todos los archivos pdf
+*pdf
+# Ignore todos los archivos docx
+*docx
+# Ignore todos los archivos de Imagen JPG
+*jpg
+# IQue esten en este directorio
+/home/w2k31984/Documents/Documentos_Cristian_Parada/

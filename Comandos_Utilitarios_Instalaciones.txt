@@ -1,0 +1,60 @@
+Comandos utilizados en terminal
+
+Instalar programa:
+sudo apt-get install vim -y
+
+Desintalar programa
+
+sudo apt-get --purge remove vim
+
+
+Cuando a quedado algo que no deja instalarse de forma correcta
+sudo dpkg –configure -a
+
+Eliminar carpetas 
+rm -rf .vim
+
+Instalar Pluggins para Python en VIM
+
+1)Instalar VIM
+sudo apt-get install vim -y
+
+2)Instalar el gestor de pluggins con bundle para hacerlo hay que tener instalado GIT
+https://github.com/VundleVim/Vundle.vim
+
+3)Clonamos desde github el repositorio donde esta el programa con la siguiente rutina de codigo :
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+4)Digitaremos para ver si tenemos bien instalado el pluggin la siguiente instrucción
+vim .vimrc
+Comandos para VIM
+https://cambiatealinux.com/comandos-basicos-para-sobrevivir-al-editor-vim
+
+Instalar Git
+Antes de instalar git debemos actualizar nuestro sistema
+1)sudo apt-get update
+2)sudo apt-get upgrade, luego
+3)sudo apt-get install git
+4)git –version
+
+
+Instalar Lyx de LATEX
+1) sudo add-apt-repository ppa:lyx-devel/release
+2)sudo apt install lyx
+
+3)Buscar y correrlo.
+
+Instalar Jmeter en Linux Lite
+1)Descargar archivo del sitio de Jmeter el .gtz
+2)Descomprimirlo.
+3)Iremos a la carpeta donde tenemos nuestro Jmeter descomprimido con cd carpeta
+4)Luego ingresaremos a la carpeta siempre con cd carpeta
+5)Digitamos ls -l para ver los archivos contenidos en la carpeta
+6)Ingresaremos a la carpeta bin : cd bin/
+7)Listamos con el comando ls -l
+8)Ahora digitaremos la siguiente instrucción dentro de la carpeta bin : ./jmeter.sh
+9)Y ya se desplegara la interfaz grafica
+
+Crear archivo .TXT
+1)Abrir una terminal
+2)Utilizar el comando touch nombre_archivo.txt
